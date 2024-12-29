@@ -1,0 +1,151 @@
+body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.center-nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.center-nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.center-nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: balck;
+  text-decoration: none; /* Remove underline from links */
+}
+
+main {
+  padding: 20px;
+  background-color: white;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  min-height: 1122px; /* A4 size height in pixels */
+  padding: 40px;
+}
+
+h2 {
+  color: #333;
+  font-family: 'Georgia', serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #555;
+  font-family: 'Georgia', serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-list li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.contact-list i {
+  margin-right: 10px;
+  color: #333;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-content div {
+  margin: 10px;
+}
+
+.footer-content h4 {
+  margin-bottom: 10px;
+}
+
+.footer-content p, .footer-content a {
+  color: white;
+  text-decoration: none; /* Remove underline from links */
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+}
+
+.footer-bottom a {
+  color: white;
+  text-decoration: none; /* Remove underline from links */
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+.social-media a {
+  margin: 0 10px;
+  color: white;
+  font-size: 1.5em;
+}
